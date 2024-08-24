@@ -1,5 +1,5 @@
-const squareValue = (x) =>{
-    console.log(x * x);
+const squareValue = (num) =>{
+    return num * num;
 }
 
-squareValue(10);
+console.log(squareValue(10));
